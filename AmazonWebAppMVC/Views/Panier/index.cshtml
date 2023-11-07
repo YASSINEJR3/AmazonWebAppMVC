@@ -1,0 +1,18 @@
+﻿@model Order
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>List of OrderItems</h1>
+<hr />
+@foreach (var item in Model.OrderItems)
+{
+    <div class="row">
+        <h3>Quantity: @item.QuantityOrdered</h3>
+        <h3>Price: @item.Price</h3>
+    </div>
+    <hr />
+    
+}
+
