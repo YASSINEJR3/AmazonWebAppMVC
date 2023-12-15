@@ -1,9 +1,30 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using AmazonWebAppMVC.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
 builder.Services.AddDbContext<AmazonWebAppMVCContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AmazonWebAppMVCContext") ?? throw new InvalidOperationException("Connection string 'AmazonWebAppMVCContext' not found.")));
+
+
+// Add authentication
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.Cookie.Name = ".AspNetCore.Cookies";
+        options.LoginPath = "/Auth/Login"; // Customize the login path
+        options.AccessDeniedPath = "/Auth/AccessDenied"; // Customize the access denied path
+    });
+
+// Add authorization policies
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("Client", policy => policy.RequireRole("Client"));
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -19,6 +40,7 @@ builder.Services.AddSession(options =>
 
 });
 
+// build 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -34,12 +56,14 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 app.UseSession();
 
-
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Auth}/{action=Login}/{id?}");
+
+app.Logger.LogInformation("Application AmazonWebAppMVC started");
 
 app.Run();

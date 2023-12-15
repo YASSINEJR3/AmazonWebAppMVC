@@ -1,18 +1,55 @@
 ﻿@model Order
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Order";
 }
 
-<h1>List of OrderItems</h1>
-<hr />
-@foreach (var item in Model.OrderItems)
-{
-    <div class="row">
-        <h3>Quantity: @item.QuantityOrdered</h3>
-        <h3>Price: @item.Price</h3>
+<div class="container mx-auto mt-8 flex justify-center items-start">
+    <div class="w-3/4">
+        <h2 class="text-2xl font-semibold mb-4">Order Items</h2>
+
+        @if (Model.OrderItems.Any())
+        {
+            @foreach (var item in Model.OrderItems)
+            {
+                <div class="bg-white p-4 border rounded-lg shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105 mb-4 flex items-center" style="max-width: 600px;">
+                    <img src="~/images/@item.Product?.ImageUrl" alt="@item.Product?.Name" class="object-cover rounded-lg" style="width: 100px; height: 100px;margin-right: 20px;" />
+                    <div class="flex-row w-full">
+                        <div class="sm:mt-0">
+                            <h2 class="text-lg font-bold text-gray-900">Nike Air Max 2019</h2>
+                            <p class="mt-1 text-xs text-gray-700">$@item.Price</p>
+                        </div>
+                        <p class="text-gray-600">Quantity: @item.QuantityOrdered</p>
+                        <p class="text-blue-600">Price: $@(item.Price * item.QuantityOrdered)</p>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-gray-600">Your order is empty.</p>
+        }
     </div>
-    <hr />
-    
-}
 
+    <div class="w-1/4 ml-8">
+        <div class="bg-white border rounded-lg shadow-lg p-4">
+            <h2 class="text-xl font-semibold mb-4">Order Summary</h2>
+            @if (Model.OrderItems.Any())
+            {
+                <div class="flex justify-between items-center mb-4">
+                    <p class="text-gray-600">Subtotal:</p>
+                    <!-- Calculate the subtotal dynamically -->
+                    <p class="text-blue-600">$@Model.OrderItems.Sum(item => item.Price * item.QuantityOrdered)</p>
+                </div>
+                <div class="flex justify-between items-center">
+                    <p class="text-lg font-semibold">Total:</p>
+                    <!-- You can calculate taxes or additional fees here -->
+                    <p class="text-blue-600 text-lg font-semibold">$@Model.OrderItems.Sum(item => item.Price * item.QuantityOrdered)</p>
+                </div>
+            }
+            <form method="post" action="SubmitOrder" class="mt-4">
+                <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-full">Place Your Order</button>
+            </form>
+        </div>
+    </div>
+</div>

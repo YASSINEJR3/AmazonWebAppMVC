@@ -2,10 +2,9 @@
 
 @{
     ViewData["Title"] = "Home";
+
+    string IsClient() => User.Identity.IsAuthenticated && User.IsInRole("Client") ? "" : "hidden";
 }
-
-
-
 
 <div class="flex justify-center mt-5">
     <form class="flex">
@@ -29,7 +28,7 @@
                 <span class="badge bg-secondary">@item.Categorie.Name</span>
                 <div class="align-items-center flex justify-content-between mt-4">
                     <p class="font-sans md:font-serif text-blue-600">$ @item.Price</p>
-                    <form asp-controller="Panier" asp-action="AddToCart">
+                    <form asp-controller="Panier" asp-action="AddToCart" class="@IsClient() ">
                         <input type="hidden" name="productId" value="@item.Id" />
                         <button class="bg-yellow-300 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">
                             Add To Cart

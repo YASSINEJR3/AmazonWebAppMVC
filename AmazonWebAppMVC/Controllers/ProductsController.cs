@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AmazonWebAppMVC.Data;
 using AmazonWebAppMVC.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AmazonWebAppMVC.Controllers
 {
-    public class ProductsController : Controller
+	[Authorize(Roles = "Admin")]
+	public class ProductsController : Controller
     {
         private readonly AmazonWebAppMVCContext _context;
 

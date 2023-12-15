@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿
+@{
+	string IsActive(string page) => ViewData["Title"] == page ? "active" : "";
+	string IsClient() => User.Identity.IsAuthenticated && User.IsInRole("Client") ? "" : "hidden";
+	string IsAdmin() => User.Identity.IsAuthenticated && User.IsInRole("Admin") ? "" : "hidden";
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -27,20 +34,35 @@
 			</div>
 			<ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
 				<li>
-					<a class="text-sm text-gray-400 hover:text-gray-500" asp-controller="Products" asp-action="Index">
+					<a class="text-sm text-gray-400 hover:text-gray-500 hover @IsActive("Home") " asp-controller="Home" asp-action="Index">
+						Home
+					</a>
+				</li>
+				<li>
+					<a class="text-sm text-gray-400 hover:text-gray-500 @IsActive("Products") @IsAdmin()" asp-controller="Products" asp-action="Index">
 						Products
 					</a>
 				</li>
 				<li>
-					<a class="text-sm text-gray-400 hover:text-gray-500" asp-controller="Categories" asp-action="Index">
+					<a class="text-sm text-gray-400 hover:text-gray-500 @IsActive("Categories") @IsAdmin()" asp-controller="Categories" asp-action="Index">
 						Categories
 					</a>
 				</li>
-				<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Contact</a></li>
+				<!--<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Contact</a></li> -->
 			</ul>
-			<a asp-controller="Panier" asp-action="Index" class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" >
-				Panier
-			</a>
+			<div class="flex items-center space-x-4">
+				<form asp-controller="Panier" asp-action="Index" class="@IsClient()">
+					<button type="submit" class="hidden lg:inline-block py-2 px-6 bg-yellow-300 hover:bg-yellow-700 text-sm text-white font-bold rounded-xl transition duration-200 @IsClient()">
+						Panier
+					</button>
+				</form>
+				<form asp-controller="Auth" asp-action="Logout">
+					<button type="submit" class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200 @IsClient()">
+						Logout
+					</button>
+				</form>
+			</div>
+			
 		</nav>	
     </header>
     <div class="container">
