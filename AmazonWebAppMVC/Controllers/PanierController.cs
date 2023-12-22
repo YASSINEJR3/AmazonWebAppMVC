@@ -19,8 +19,6 @@ namespace AmazonWebAppMVC.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
-        [Route("/Panier")]
 
         public IActionResult Index()
         {

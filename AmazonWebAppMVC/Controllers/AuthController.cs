@@ -29,7 +29,7 @@ namespace AmazonWebAppMVC.Controllers
         public IActionResult Login(string username, string password)
         {
             _logger.LogInformation(string.Format("AuthController::Login() called with username: {0} and password: {1}", username, password));
-            if (username == "admin" && password == "admin")
+            if (username == "admin@gmail.com" && password == "admin")
             {
                 _logger.LogInformation("AuthController::Login() is admin");
                 var claims = new[]
@@ -45,7 +45,7 @@ namespace AmazonWebAppMVC.Controllers
                 _logger.LogInformation("AuthController::Login() admin logged in");
                 return RedirectToAction("Index", "Home");
             }
-            else if (username == "client" && password == "client")
+            else if (username == "client@gmail.com" && password == "client")
             {
                 _logger.LogInformation("AuthController::Login() is client");
                 var claims = new[]
@@ -70,6 +70,7 @@ namespace AmazonWebAppMVC.Controllers
         [AllowAnonymous]
         public IActionResult AccessDenied()
         {
+            _logger.LogInformation("AuthController::AccessDenied() called");
             return View();
         }
 
@@ -78,6 +79,7 @@ namespace AmazonWebAppMVC.Controllers
         public IActionResult Logout()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            _logger.LogInformation("AuthController::Logout() called");
             return RedirectToAction("Login");
         }
     }

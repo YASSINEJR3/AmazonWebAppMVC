@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using AmazonWebAppMVC.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.ClearProviders();
@@ -26,6 +27,10 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("Client", policy => policy.RequireRole("Client"));
 });
 
+//add Serilog
+builder.Logging.AddSerilog(new LoggerConfiguration()
+       .WriteTo.File("..\\Logs\\amazonwebappmvc.log", rollingInterval: RollingInterval.Day)
+       .CreateLogger());
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();

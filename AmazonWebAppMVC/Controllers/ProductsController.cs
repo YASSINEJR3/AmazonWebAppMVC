@@ -125,9 +125,8 @@ namespace AmazonWebAppMVC.Controllers
             {
                 return NotFound();
             }
-
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 try
                 {
                     _context.Update(product);
@@ -145,7 +144,7 @@ namespace AmazonWebAppMVC.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
+           // }
             ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Id", product.CategoryId);
             return View(product);
         }
