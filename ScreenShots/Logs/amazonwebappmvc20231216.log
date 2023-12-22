@@ -1,0 +1,1263 @@
+2023-12-16 11:37:14.210 +01:00 [INF] Application AmazonWebAppMVC started
+2023-12-16 11:37:14.243 +01:00 [INF] User profile is available. Using 'C:\Users\Moham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-16 11:37:14.279 +01:00 [INF] Now listening on: http://localhost:5004
+2023-12-16 11:37:14.279 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-16 11:37:14.280 +01:00 [INF] Hosting environment: Development
+2023-12-16 11:37:14.280 +01:00 [INF] Content root path: C:\Users\Moham\OneDrive\Documents\Studies\ILISI3\S5\Dot Net\Projects\AmazonWebAppMVC\AmazonWebAppMVC
+2023-12-16 11:37:14.430 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2023-12-16 11:37:14.438 +01:00 [WRN] Failed to determine the https port for redirect.
+2023-12-16 11:37:14.467 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:37:14.488 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 11:37:14.490 +01:00 [INF] AuthController::Login() called
+2023-12-16 11:37:14.496 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-16 11:37:14.552 +01:00 [INF] Executed ViewResult - view Login executed in 57.1724ms.
+2023-12-16 11:37:14.553 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 64.2816ms
+2023-12-16 11:37:14.553 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:37:14.557 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 200 - text/html;+charset=utf-8 128.6637ms
+2023-12-16 11:37:14.566 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:37:14.566 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/css/styles.css?v=cUXNFYqe2-7MQNjrcl7vQmBQcRGJ_9v8PmLOUCK0C_w - -
+2023-12-16 11:37:14.568 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 1.7951ms
+2023-12-16 11:37:14.568 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/css/site.css?v=o5Xt-F6IJ6K8I1RTQFT4OAsJqs3o7kZ5X-k3OiY89ZY - -
+2023-12-16 11:37:14.577 +01:00 [INF] The file /css/styles.css was not modified
+2023-12-16 11:37:14.577 +01:00 [INF] The file /css/site.css was not modified
+2023-12-16 11:37:14.577 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/css/styles.css?v=cUXNFYqe2-7MQNjrcl7vQmBQcRGJ_9v8PmLOUCK0C_w - - - 304 - text/css 10.9926ms
+2023-12-16 11:37:14.577 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/css/site.css?v=o5Xt-F6IJ6K8I1RTQFT4OAsJqs3o7kZ5X-k3OiY89ZY - - - 304 - text/css 8.8634ms
+2023-12-16 11:37:30.056 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 214
+2023-12-16 11:37:30.058 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:37:30.063 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 11:37:30.074 +01:00 [INF] AuthController::Login() called with username: client and password: clieny
+2023-12-16 11:37:30.075 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-16 11:37:30.078 +01:00 [INF] Executed ViewResult - view Login executed in 3.8227ms.
+2023-12-16 11:37:30.078 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 15.0956ms
+2023-12-16 11:37:30.078 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:37:30.079 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 214 - 200 - text/html;+charset=utf-8 22.9313ms
+2023-12-16 11:37:30.095 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:37:30.096 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 1.2753ms
+2023-12-16 11:37:38.392 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 214
+2023-12-16 11:37:38.394 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:37:38.394 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 11:37:38.395 +01:00 [INF] AuthController::Login() called with username: client and password: client
+2023-12-16 11:37:38.395 +01:00 [INF] AuthController::Login() is client
+2023-12-16 11:37:38.397 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-12-16 11:37:38.398 +01:00 [INF] AuthController::Login() client logged in
+2023-12-16 11:37:38.398 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2023-12-16 11:37:38.398 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 4.2663ms
+2023-12-16 11:37:38.398 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:37:38.398 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 214 - 302 0 - 6.8163ms
+2023-12-16 11:37:38.401 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:37:38.407 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:37:38.411 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:37:38.494 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:37:39.815 +01:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:37:39.916 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:37:39.918 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:37:39.958 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:37:39.976 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:37:39.997 +01:00 [INF] Executed ViewResult - view Index executed in 22.0687ms.
+2023-12-16 11:37:39.998 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 1587.2408ms
+2023-12-16 11:37:39.998 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:37:40.006 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 1604.3151ms
+2023-12-16 11:37:40.019 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:37:40.019 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2319ms
+2023-12-16 11:37:59.106 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products - -
+2023-12-16 11:37:59.108 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products - - - 404 0 - 2.1128ms
+2023-12-16 11:38:06.482 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products/Index - -
+2023-12-16 11:38:06.486 +01:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2023-12-16 11:38:06.489 +01:00 [INF] AuthenticationScheme: Cookies was forbidden.
+2023-12-16 11:38:06.489 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products/Index - - - 302 0 - 6.7390ms
+2023-12-16 11:38:06.492 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Auth/AccessDenied?ReturnUrl=%2FProducts%2FIndex - -
+2023-12-16 11:38:06.492 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.AccessDenied (AmazonWebAppMVC)'
+2023-12-16 11:38:06.493 +01:00 [INF] Route matched with {action = "AccessDenied", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AccessDenied() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 11:38:06.493 +01:00 [INF] AuthController::AccessDenied() called
+2023-12-16 11:38:06.494 +01:00 [INF] Executing ViewResult, running view AccessDenied.
+2023-12-16 11:38:06.497 +01:00 [INF] Executed ViewResult - view AccessDenied executed in 3.0811ms.
+2023-12-16 11:38:06.497 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.AccessDenied (AmazonWebAppMVC) in 3.4289ms
+2023-12-16 11:38:06.497 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.AccessDenied (AmazonWebAppMVC)'
+2023-12-16 11:38:06.497 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Auth/AccessDenied?ReturnUrl=%2FProducts%2FIndex - - - 200 - text/html;+charset=utf-8 5.0939ms
+2023-12-16 11:38:06.515 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:38:06.515 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2431ms
+2023-12-16 11:38:11.712 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:38:11.715 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:38:11.715 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:38:11.716 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:38:11.728 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:38:11.731 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:38:11.731 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:38:11.732 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:38:11.733 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:38:11.736 +01:00 [INF] Executed ViewResult - view Index executed in 2.7089ms.
+2023-12-16 11:38:11.736 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 21.0199ms
+2023-12-16 11:38:11.736 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:38:11.736 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 24.6401ms
+2023-12-16 11:38:11.761 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:38:11.761 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1995ms
+2023-12-16 11:38:13.521 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2023-12-16 11:38:13.521 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:38:13.521 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 11:38:13.521 +01:00 [INF] AuthController::Login() called
+2023-12-16 11:38:13.521 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-16 11:38:13.522 +01:00 [INF] Executed ViewResult - view Login executed in 0.8054ms.
+2023-12-16 11:38:13.522 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 1.0065ms
+2023-12-16 11:38:13.522 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:38:13.522 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 200 - text/html;+charset=utf-8 1.8723ms
+2023-12-16 11:38:13.545 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:38:13.545 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1839ms
+2023-12-16 11:38:17.556 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 257
+2023-12-16 11:38:17.556 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:38:17.557 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 11:38:17.557 +01:00 [INF] AuthController::Login() called with username: client and password: client
+2023-12-16 11:38:17.557 +01:00 [INF] AuthController::Login() is client
+2023-12-16 11:38:17.558 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-12-16 11:38:17.558 +01:00 [INF] AuthController::Login() client logged in
+2023-12-16 11:38:17.558 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2023-12-16 11:38:17.558 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 1.921ms
+2023-12-16 11:38:17.559 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:38:17.559 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 257 - 302 0 - 2.6661ms
+2023-12-16 11:38:17.563 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:38:17.563 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:38:17.564 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:38:17.565 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:38:17.608 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:38:17.609 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:38:17.609 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:38:17.609 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:38:17.610 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:38:17.611 +01:00 [INF] Executed ViewResult - view Index executed in 1.3541ms.
+2023-12-16 11:38:17.611 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 47.8251ms
+2023-12-16 11:38:17.611 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:38:17.612 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 48.6760ms
+2023-12-16 11:38:17.631 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:38:17.631 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3403ms
+2023-12-16 11:38:27.022 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Panier/Index application/x-www-form-urlencoded 225
+2023-12-16 11:38:27.022 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:38:27.023 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:38:27.024 +01:00 [INF] PanierController::Index() called
+2023-12-16 11:38:27.025 +01:00 [INF] PanierController::Index() item = 
+2023-12-16 11:38:27.025 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 11:38:27.026 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:38:27.029 +01:00 [INF] Executed ViewResult - view Index executed in 4.203ms.
+2023-12-16 11:38:27.029 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 6.122ms
+2023-12-16 11:38:27.029 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:38:27.029 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Panier/Index application/x-www-form-urlencoded 225 - 200 - text/html;+charset=utf-8 7.9705ms
+2023-12-16 11:38:27.042 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:38:27.042 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1833ms
+2023-12-16 11:38:29.359 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:38:29.359 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:38:29.359 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:38:29.360 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:38:29.361 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:38:29.362 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:38:29.363 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:38:29.363 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:38:29.364 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:38:29.366 +01:00 [INF] Executed ViewResult - view Index executed in 1.3103ms.
+2023-12-16 11:38:29.366 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 6.2636ms
+2023-12-16 11:38:29.366 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:38:29.366 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 7.2795ms
+2023-12-16 11:38:29.378 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:38:29.378 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1507ms
+2023-12-16 11:38:31.654 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Panier/Index application/x-www-form-urlencoded 225
+2023-12-16 11:38:31.656 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:38:31.656 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:38:31.656 +01:00 [INF] PanierController::Index() called
+2023-12-16 11:38:31.656 +01:00 [INF] PanierController::Index() item = 
+2023-12-16 11:38:31.657 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 11:38:31.657 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:38:31.658 +01:00 [INF] Executed ViewResult - view Index executed in 1.1795ms.
+2023-12-16 11:38:31.658 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 2.3487ms
+2023-12-16 11:38:31.658 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:38:31.658 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Panier/Index application/x-www-form-urlencoded 225 - 200 - text/html;+charset=utf-8 3.8921ms
+2023-12-16 11:38:31.672 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:38:31.672 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1310ms
+2023-12-16 11:39:37.049 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Panier/Index application/x-www-form-urlencoded 225
+2023-12-16 11:39:37.049 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:39:37.050 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:39:37.050 +01:00 [INF] PanierController::Index() called
+2023-12-16 11:39:37.050 +01:00 [INF] PanierController::Index() item = 
+2023-12-16 11:39:37.050 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 11:39:37.052 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:39:37.057 +01:00 [INF] Executed ViewResult - view Index executed in 6.3329ms.
+2023-12-16 11:39:37.057 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 6.7459ms
+2023-12-16 11:39:37.057 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:39:37.057 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Panier/Index application/x-www-form-urlencoded 225 - 200 - text/html;+charset=utf-8 8.3759ms
+2023-12-16 11:39:37.073 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:39:37.074 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1527ms
+2023-12-16 11:39:42.863 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:39:42.865 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:39:42.868 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:39:42.869 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:39:42.870 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:39:42.871 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:39:42.871 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:39:42.871 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:39:42.873 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:39:42.874 +01:00 [INF] Executed ViewResult - view Index executed in 1.9895ms.
+2023-12-16 11:39:42.874 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 5.779ms
+2023-12-16 11:39:42.874 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:39:42.874 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 11.0199ms
+2023-12-16 11:39:42.890 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:39:42.891 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3311ms
+2023-12-16 11:39:44.761 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Panier/AddToCart application/x-www-form-urlencoded 237
+2023-12-16 11:39:44.762 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC)'
+2023-12-16 11:39:44.763 +01:00 [INF] Route matched with {action = "AddToCart", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddToCart(Int32) on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:39:44.764 +01:00 [INF] PanierController::AddToCart() Order before = AmazonWebAppMVC.Models.Order
+2023-12-16 11:39:44.792 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:39:44.794 +01:00 [INF] PanierController::AddToCart() product = AmazonWebAppMVC.Models.Product
+2023-12-16 11:39:44.796 +01:00 [INF] PanierController::AddToCart() Order after = AmazonWebAppMVC.Models.Order
+2023-12-16 11:39:44.836 +01:00 [INF] Executing RedirectResult, redirecting to /Panier/Index.
+2023-12-16 11:39:44.836 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC) in 73.3852ms
+2023-12-16 11:39:44.836 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC)'
+2023-12-16 11:39:44.839 +01:00 [INF] Session started; Key:3aeb006d-c8b8-f762-3073-1eda36d947c5, Id:14149df2-4b0a-5538-76ea-274ba280095f
+2023-12-16 11:39:44.839 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Panier/AddToCart application/x-www-form-urlencoded 237 - 302 0 - 78.4225ms
+2023-12-16 11:39:44.842 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Panier/Index - -
+2023-12-16 11:39:44.842 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:39:44.842 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:39:44.843 +01:00 [INF] PanierController::Index() called
+2023-12-16 11:39:44.843 +01:00 [INF] PanierController::Index() item = {"OrderId":0,"FirstName":null,"LastName":null,"Email":null,"Total":2500,"OrderItems":[{"OrderItemId":0,"OrderId":0,"ProductId":1,"QuantityOrdered":1,"Price":2500,"Order":null,"Product":null}]}
+2023-12-16 11:39:44.849 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:39:44.850 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 11:39:44.850 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:39:44.856 +01:00 [INF] Executed ViewResult - view Index executed in 6.0458ms.
+2023-12-16 11:39:44.856 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 13.3629ms
+2023-12-16 11:39:44.856 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:39:44.856 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Panier/Index - - - 200 - text/html;+charset=utf-8 13.9181ms
+2023-12-16 11:39:44.872 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:39:44.872 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1771ms
+2023-12-16 11:40:26.474 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:40:26.475 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:40:26.475 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:40:26.475 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:40:26.477 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:40:26.478 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:40:26.478 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:40:26.479 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:40:26.479 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:40:26.480 +01:00 [INF] Executed ViewResult - view Index executed in 0.7427ms.
+2023-12-16 11:40:26.480 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 5.3299ms
+2023-12-16 11:40:26.480 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:40:26.480 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 6.4961ms
+2023-12-16 11:40:26.498 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:40:26.498 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1791ms
+2023-12-16 11:40:28.312 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Panier/AddToCart application/x-www-form-urlencoded 237
+2023-12-16 11:40:28.313 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC)'
+2023-12-16 11:40:28.313 +01:00 [INF] Route matched with {action = "AddToCart", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddToCart(Int32) on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:40:28.313 +01:00 [INF] PanierController::AddToCart() Order before = AmazonWebAppMVC.Models.Order
+2023-12-16 11:40:28.315 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:40:28.315 +01:00 [INF] PanierController::AddToCart() product = AmazonWebAppMVC.Models.Product
+2023-12-16 11:40:28.316 +01:00 [INF] PanierController::AddToCart() Order after = AmazonWebAppMVC.Models.Order
+2023-12-16 11:40:28.316 +01:00 [INF] Executing RedirectResult, redirecting to /Panier/Index.
+2023-12-16 11:40:28.316 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC) in 3.4669ms
+2023-12-16 11:40:28.316 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC)'
+2023-12-16 11:40:28.317 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Panier/AddToCart application/x-www-form-urlencoded 237 - 302 0 - 4.5483ms
+2023-12-16 11:40:28.319 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Panier/Index - -
+2023-12-16 11:40:28.320 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:40:28.320 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:40:28.320 +01:00 [INF] PanierController::Index() called
+2023-12-16 11:40:28.320 +01:00 [INF] PanierController::Index() item = {"OrderId":0,"FirstName":null,"LastName":null,"Email":null,"Total":5500,"OrderItems":[{"OrderItemId":0,"OrderId":0,"ProductId":1,"QuantityOrdered":1,"Price":2500,"Order":null,"Product":null},{"OrderItemId":0,"OrderId":0,"ProductId":2,"QuantityOrdered":1,"Price":3000,"Order":null,"Product":null}]}
+2023-12-16 11:40:28.322 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:40:28.323 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:40:28.323 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 11:40:28.323 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:40:28.324 +01:00 [INF] Executed ViewResult - view Index executed in 0.8959ms.
+2023-12-16 11:40:28.324 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 4.5946ms
+2023-12-16 11:40:28.324 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:40:28.324 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Panier/Index - - - 200 - text/html;+charset=utf-8 5.1495ms
+2023-12-16 11:40:28.341 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:40:28.341 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1530ms
+2023-12-16 11:40:30.889 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:40:30.890 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:40:30.890 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:40:30.890 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:40:30.892 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:40:30.892 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:40:30.892 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:40:30.893 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:40:30.894 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:40:30.895 +01:00 [INF] Executed ViewResult - view Index executed in 0.6669ms.
+2023-12-16 11:40:30.895 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 4.8044ms
+2023-12-16 11:40:30.895 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:40:30.895 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 5.6933ms
+2023-12-16 11:40:30.911 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:40:30.911 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1605ms
+2023-12-16 11:40:32.056 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Panier/AddToCart application/x-www-form-urlencoded 237
+2023-12-16 11:40:32.057 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC)'
+2023-12-16 11:40:32.057 +01:00 [INF] Route matched with {action = "AddToCart", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddToCart(Int32) on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:40:32.057 +01:00 [INF] PanierController::AddToCart() Order before = AmazonWebAppMVC.Models.Order
+2023-12-16 11:40:32.059 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:40:32.059 +01:00 [INF] PanierController::AddToCart() product = AmazonWebAppMVC.Models.Product
+2023-12-16 11:40:32.059 +01:00 [INF] PanierController::AddToCart() Order after = AmazonWebAppMVC.Models.Order
+2023-12-16 11:40:32.059 +01:00 [INF] Executing RedirectResult, redirecting to /Panier/Index.
+2023-12-16 11:40:32.059 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC) in 2.329ms
+2023-12-16 11:40:32.059 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC)'
+2023-12-16 11:40:32.059 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Panier/AddToCart application/x-www-form-urlencoded 237 - 302 0 - 3.0267ms
+2023-12-16 11:40:32.062 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Panier/Index - -
+2023-12-16 11:40:32.062 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:40:32.062 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:40:32.063 +01:00 [INF] PanierController::Index() called
+2023-12-16 11:40:32.063 +01:00 [INF] PanierController::Index() item = {"OrderId":0,"FirstName":null,"LastName":null,"Email":null,"Total":8000,"OrderItems":[{"OrderItemId":0,"OrderId":0,"ProductId":1,"QuantityOrdered":2,"Price":2500,"Order":null,"Product":null},{"OrderItemId":0,"OrderId":0,"ProductId":2,"QuantityOrdered":1,"Price":3000,"Order":null,"Product":null}]}
+2023-12-16 11:40:32.064 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:40:32.065 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:40:32.065 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 11:40:32.065 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:40:32.066 +01:00 [INF] Executed ViewResult - view Index executed in 0.7073ms.
+2023-12-16 11:40:32.066 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 3.4316ms
+2023-12-16 11:40:32.066 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:40:32.066 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Panier/Index - - - 200 - text/html;+charset=utf-8 3.9299ms
+2023-12-16 11:40:32.079 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:40:32.080 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1268ms
+2023-12-16 11:43:51.194 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Panier/Index - -
+2023-12-16 11:43:51.194 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:43:51.195 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:43:51.195 +01:00 [INF] PanierController::Index() called
+2023-12-16 11:43:51.196 +01:00 [INF] PanierController::Index() item = {"OrderId":0,"FirstName":null,"LastName":null,"Email":null,"Total":8000,"OrderItems":[{"OrderItemId":0,"OrderId":0,"ProductId":1,"QuantityOrdered":2,"Price":2500,"Order":null,"Product":null},{"OrderItemId":0,"OrderId":0,"ProductId":2,"QuantityOrdered":1,"Price":3000,"Order":null,"Product":null}]}
+2023-12-16 11:43:51.199 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:43:51.200 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:43:51.200 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 11:43:51.201 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:43:51.208 +01:00 [INF] Executed ViewResult - view Index executed in 7.3556ms.
+2023-12-16 11:43:51.208 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 12.6297ms
+2023-12-16 11:43:51.208 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:43:51.208 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Panier/Index - - - 200 - text/html;+charset=utf-8 14.0227ms
+2023-12-16 11:43:51.219 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:43:51.219 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1558ms
+2023-12-16 11:44:16.625 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Panier/Index - -
+2023-12-16 11:44:16.626 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:44:16.627 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:44:16.627 +01:00 [INF] PanierController::Index() called
+2023-12-16 11:44:16.627 +01:00 [INF] PanierController::Index() item = {"OrderId":0,"FirstName":null,"LastName":null,"Email":null,"Total":8000,"OrderItems":[{"OrderItemId":0,"OrderId":0,"ProductId":1,"QuantityOrdered":2,"Price":2500,"Order":null,"Product":null},{"OrderItemId":0,"OrderId":0,"ProductId":2,"QuantityOrdered":1,"Price":3000,"Order":null,"Product":null}]}
+2023-12-16 11:44:16.633 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:44:16.634 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:44:16.634 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 11:44:16.635 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:44:16.645 +01:00 [INF] Executed ViewResult - view Index executed in 10.6352ms.
+2023-12-16 11:44:16.645 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 17.9026ms
+2023-12-16 11:44:16.645 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:44:16.645 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Panier/Index - - - 200 - text/html;+charset=utf-8 19.6820ms
+2023-12-16 11:44:16.659 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:44:16.659 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1282ms
+2023-12-16 11:44:31.692 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Panier/Index - -
+2023-12-16 11:44:31.693 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:44:31.694 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 11:44:31.694 +01:00 [INF] PanierController::Index() called
+2023-12-16 11:44:31.695 +01:00 [INF] PanierController::Index() item = {"OrderId":0,"FirstName":null,"LastName":null,"Email":null,"Total":8000,"OrderItems":[{"OrderItemId":0,"OrderId":0,"ProductId":1,"QuantityOrdered":2,"Price":2500,"Order":null,"Product":null},{"OrderItemId":0,"OrderId":0,"ProductId":2,"QuantityOrdered":1,"Price":3000,"Order":null,"Product":null}]}
+2023-12-16 11:44:31.699 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:44:31.700 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 11:44:31.700 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 11:44:31.701 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:44:31.709 +01:00 [INF] Executed ViewResult - view Index executed in 8.657ms.
+2023-12-16 11:44:31.709 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 15.0153ms
+2023-12-16 11:44:31.709 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 11:44:31.709 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Panier/Index - - - 200 - text/html;+charset=utf-8 17.2231ms
+2023-12-16 11:44:31.724 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:44:31.724 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1429ms
+2023-12-16 11:44:38.287 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:44:38.289 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:44:38.293 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:44:38.293 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:44:38.294 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:44:38.295 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:44:38.295 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:44:38.297 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:44:38.298 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:44:38.299 +01:00 [INF] Executed ViewResult - view Index executed in 2.1998ms.
+2023-12-16 11:44:38.300 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 6.7206ms
+2023-12-16 11:44:38.300 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:44:38.300 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 12.5133ms
+2023-12-16 11:44:38.304 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:44:38.304 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:44:38.304 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:44:38.304 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:44:38.305 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:44:38.306 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:44:38.306 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:44:38.306 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:44:38.306 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:44:38.307 +01:00 [INF] Executed ViewResult - view Index executed in 0.6297ms.
+2023-12-16 11:44:38.307 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 2.972ms
+2023-12-16 11:44:38.307 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:44:38.307 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 3.4397ms
+2023-12-16 11:44:38.320 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:44:38.320 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1257ms
+2023-12-16 11:44:44.315 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:44:44.315 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:44:44.315 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:44:44.316 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:44:44.318 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:44:44.319 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:44:44.319 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:44:44.320 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:44:44.321 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:44:44.322 +01:00 [INF] Executed ViewResult - view Index executed in 1.5044ms.
+2023-12-16 11:44:44.322 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 7.0172ms
+2023-12-16 11:44:44.322 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:44:44.323 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 8.0232ms
+2023-12-16 11:44:44.377 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:44:44.377 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1928ms
+2023-12-16 11:44:46.944 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Auth/Logout application/x-www-form-urlencoded 225
+2023-12-16 11:44:46.944 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Logout (AmazonWebAppMVC)'
+2023-12-16 11:44:46.945 +01:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 11:44:46.947 +01:00 [INF] AuthenticationScheme: Cookies signed out.
+2023-12-16 11:44:46.947 +01:00 [INF] AuthController::Logout() called
+2023-12-16 11:44:46.947 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2023-12-16 11:44:46.947 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Logout (AmazonWebAppMVC) in 1.4943ms
+2023-12-16 11:44:46.947 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Logout (AmazonWebAppMVC)'
+2023-12-16 11:44:46.947 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Auth/Logout application/x-www-form-urlencoded 225 - 302 0 - 3.4300ms
+2023-12-16 11:44:46.950 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2023-12-16 11:44:46.951 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:44:46.951 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 11:44:46.952 +01:00 [INF] AuthController::Login() called
+2023-12-16 11:44:46.952 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-16 11:44:46.953 +01:00 [INF] Executed ViewResult - view Login executed in 1.5609ms.
+2023-12-16 11:44:46.953 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 1.7156ms
+2023-12-16 11:44:46.953 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:44:46.953 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 200 - text/html;+charset=utf-8 2.9939ms
+2023-12-16 11:44:46.965 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:44:46.966 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1162ms
+2023-12-16 11:44:54.785 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 213
+2023-12-16 11:44:54.786 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:44:54.787 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 11:44:54.787 +01:00 [INF] AuthController::Login() called with username: admin and password: admin*
+2023-12-16 11:44:54.788 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-16 11:44:54.788 +01:00 [INF] Executed ViewResult - view Login executed in 0.8524ms.
+2023-12-16 11:44:54.788 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 1.432ms
+2023-12-16 11:44:54.789 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:44:54.789 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 213 - 200 - text/html;+charset=utf-8 3.1361ms
+2023-12-16 11:44:54.803 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:44:54.803 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1139ms
+2023-12-16 11:45:00.221 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 212
+2023-12-16 11:45:00.221 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:45:00.222 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 11:45:00.222 +01:00 [INF] AuthController::Login() called with username: admin and password: admin
+2023-12-16 11:45:00.222 +01:00 [INF] AuthController::Login() is admin
+2023-12-16 11:45:00.222 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-12-16 11:45:00.222 +01:00 [INF] AuthController::Login() admin logged in
+2023-12-16 11:45:00.222 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2023-12-16 11:45:00.223 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 1.0578ms
+2023-12-16 11:45:00.223 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 11:45:00.223 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 212 - 302 0 - 1.6618ms
+2023-12-16 11:45:00.227 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:45:00.228 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:00.228 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:45:00.228 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:45:00.229 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:45:00.230 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:45:00.230 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:45:00.230 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:45:00.231 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:45:00.231 +01:00 [INF] Executed ViewResult - view Index executed in 0.5986ms.
+2023-12-16 11:45:00.231 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 3.6679ms
+2023-12-16 11:45:00.231 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:00.231 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 4.2025ms
+2023-12-16 11:45:00.247 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:45:00.247 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2402ms
+2023-12-16 11:45:04.943 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products/Index - -
+2023-12-16 11:45:04.943 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:04.945 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.ProductsController (AmazonWebAppMVC).
+2023-12-16 11:45:04.951 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:45:04.955 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:45:04.969 +01:00 [INF] Executed ViewResult - view Index executed in 14.3875ms.
+2023-12-16 11:45:04.969 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC) in 24.0686ms
+2023-12-16 11:45:04.969 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:04.969 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products/Index - - - 200 - text/html;+charset=utf-8 26.9041ms
+2023-12-16 11:45:04.983 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:45:04.983 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2033ms
+2023-12-16 11:45:05.720 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Categories/Index - -
+2023-12-16 11:45:05.721 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:05.723 +01:00 [INF] Route matched with {action = "Index", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.CategoriesController (AmazonWebAppMVC).
+2023-12-16 11:45:05.725 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:45:05.726 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:45:05.737 +01:00 [INF] Executed ViewResult - view Index executed in 11.059ms.
+2023-12-16 11:45:05.737 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC) in 13.6218ms
+2023-12-16 11:45:05.737 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:05.737 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Categories/Index - - - 200 - text/html;+charset=utf-8 16.9057ms
+2023-12-16 11:45:05.748 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:45:05.748 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1440ms
+2023-12-16 11:45:07.768 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 11:45:07.768 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:07.768 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:45:07.769 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 11:45:07.770 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:45:07.771 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 11:45:07.771 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:45:07.771 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 11:45:07.772 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:45:07.773 +01:00 [INF] Executed ViewResult - view Index executed in 0.8681ms.
+2023-12-16 11:45:07.773 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 4.7703ms
+2023-12-16 11:45:07.773 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:07.773 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 5.4604ms
+2023-12-16 11:45:07.787 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:45:07.787 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1654ms
+2023-12-16 11:45:12.132 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index?CategoryId=2&SearchTerm= - -
+2023-12-16 11:45:12.132 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:12.132 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:45:12.136 +01:00 [INF] HomeController::Index(null,2) called
+2023-12-16 11:45:12.137 +01:00 [INF] HomeController::Index() CategoryId = 2
+2023-12-16 11:45:12.137 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:45:12.141 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__CategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[CategoryId] = @__CategoryId_0
+2023-12-16 11:45:12.142 +01:00 [INF] HomeController::Index() products number = 0
+2023-12-16 11:45:12.147 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__CategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+WHERE [p].[CategoryId] = @__CategoryId_0
+2023-12-16 11:45:12.147 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:45:12.148 +01:00 [INF] Executed ViewResult - view Index executed in 0.7238ms.
+2023-12-16 11:45:12.148 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 15.759ms
+2023-12-16 11:45:12.148 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:12.148 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index?CategoryId=2&SearchTerm= - - - 200 - text/html;+charset=utf-8 16.4475ms
+2023-12-16 11:45:12.161 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:45:12.161 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1548ms
+2023-12-16 11:45:14.344 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index?CategoryId=1&SearchTerm= - -
+2023-12-16 11:45:14.344 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:14.345 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 11:45:14.345 +01:00 [INF] HomeController::Index(null,1) called
+2023-12-16 11:45:14.346 +01:00 [INF] HomeController::Index() CategoryId = 1
+2023-12-16 11:45:14.347 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 11:45:14.348 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__CategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[CategoryId] = @__CategoryId_0
+2023-12-16 11:45:14.348 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 11:45:14.350 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__CategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+WHERE [p].[CategoryId] = @__CategoryId_0
+2023-12-16 11:45:14.350 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 11:45:14.351 +01:00 [INF] Executed ViewResult - view Index executed in 0.8389ms.
+2023-12-16 11:45:14.351 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 6.4552ms
+2023-12-16 11:45:14.351 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 11:45:14.351 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index?CategoryId=1&SearchTerm= - - - 200 - text/html;+charset=utf-8 6.9858ms
+2023-12-16 11:45:14.366 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 11:45:14.366 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1253ms
+2023-12-16 18:21:14.187 +01:00 [INF] Application AmazonWebAppMVC started
+2023-12-16 18:21:14.223 +01:00 [INF] User profile is available. Using 'C:\Users\Moham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-16 18:21:14.263 +01:00 [INF] Now listening on: http://localhost:5004
+2023-12-16 18:21:14.263 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-16 18:21:14.264 +01:00 [INF] Hosting environment: Development
+2023-12-16 18:21:14.264 +01:00 [INF] Content root path: C:\Users\Moham\OneDrive\Documents\Studies\ILISI3\S5\Dot Net\Projects\AmazonWebAppMVC\AmazonWebAppMVC
+2023-12-16 18:21:14.426 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2023-12-16 18:21:14.438 +01:00 [WRN] Failed to determine the https port for redirect.
+2023-12-16 18:21:14.478 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:21:14.498 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:21:14.501 +01:00 [INF] AuthController::Login() called
+2023-12-16 18:21:14.508 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-16 18:21:14.570 +01:00 [INF] Executed ViewResult - view Login executed in 63.0005ms.
+2023-12-16 18:21:14.571 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 71.9686ms
+2023-12-16 18:21:14.571 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:21:14.574 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 200 - text/html;+charset=utf-8 151.2789ms
+2023-12-16 18:21:14.592 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:21:14.592 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/css/styles.css?v=cUXNFYqe2-7MQNjrcl7vQmBQcRGJ_9v8PmLOUCK0C_w - -
+2023-12-16 18:21:14.594 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/css/site.css?v=o5Xt-F6IJ6K8I1RTQFT4OAsJqs3o7kZ5X-k3OiY89ZY - -
+2023-12-16 18:21:14.594 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 2.4719ms
+2023-12-16 18:21:14.603 +01:00 [INF] The file /css/site.css was not modified
+2023-12-16 18:21:14.603 +01:00 [INF] The file /css/styles.css was not modified
+2023-12-16 18:21:14.604 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/css/styles.css?v=cUXNFYqe2-7MQNjrcl7vQmBQcRGJ_9v8PmLOUCK0C_w - - - 304 - text/css 11.8915ms
+2023-12-16 18:21:14.604 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/css/site.css?v=o5Xt-F6IJ6K8I1RTQFT4OAsJqs3o7kZ5X-k3OiY89ZY - - - 304 - text/css 9.7975ms
+2023-12-16 18:21:23.722 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 257
+2023-12-16 18:21:23.725 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:21:23.731 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:21:23.746 +01:00 [INF] AuthController::Login() called with username: client and password: client
+2023-12-16 18:21:23.746 +01:00 [INF] AuthController::Login() is client
+2023-12-16 18:21:23.751 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-12-16 18:21:23.751 +01:00 [INF] AuthController::Login() client logged in
+2023-12-16 18:21:23.752 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2023-12-16 18:21:23.752 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 21.0005ms
+2023-12-16 18:21:23.752 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:21:23.753 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 257 - 302 0 - 30.4647ms
+2023-12-16 18:21:23.756 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:21:23.762 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:21:23.767 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:21:23.887 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:21:25.154 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 257
+2023-12-16 18:21:25.155 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:21:25.155 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:21:25.160 +01:00 [INF] AuthController::Login() called with username: client and password: client
+2023-12-16 18:21:25.160 +01:00 [INF] AuthController::Login() is client
+2023-12-16 18:21:25.161 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-12-16 18:21:25.161 +01:00 [INF] AuthController::Login() client logged in
+2023-12-16 18:21:25.162 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2023-12-16 18:21:25.162 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 7.003ms
+2023-12-16 18:21:25.162 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:21:25.162 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 257 - 302 0 - 8.3072ms
+2023-12-16 18:21:25.166 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:21:25.169 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:21:25.169 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:21:25.170 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:21:25.369 +01:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:21:25.369 +01:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:21:25.591 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:21:25.591 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:21:25.593 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:21:25.593 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:21:25.641 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:21:25.641 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:21:25.662 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:21:25.662 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:21:25.695 +01:00 [INF] Executed ViewResult - view Index executed in 34.1156ms.
+2023-12-16 18:21:25.695 +01:00 [INF] Executed ViewResult - view Index executed in 34.1552ms.
+2023-12-16 18:21:25.696 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 526.924ms
+2023-12-16 18:21:25.696 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 1928.71ms
+2023-12-16 18:21:25.696 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:21:25.697 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:21:25.704 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 537.6597ms
+2023-12-16 18:21:25.704 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 1947.9915ms
+2023-12-16 18:21:25.717 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:21:25.718 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.7951ms
+2023-12-16 18:21:31.075 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Panier/Index application/x-www-form-urlencoded 225
+2023-12-16 18:21:31.078 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 18:21:31.079 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 18:21:31.081 +01:00 [INF] PanierController::Index() called
+2023-12-16 18:21:31.081 +01:00 [INF] PanierController::Index() item = 
+2023-12-16 18:21:31.082 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 18:21:31.082 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:21:31.088 +01:00 [INF] Executed ViewResult - view Index executed in 6.007ms.
+2023-12-16 18:21:31.088 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 9.3246ms
+2023-12-16 18:21:31.088 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 18:21:31.088 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Panier/Index application/x-www-form-urlencoded 225 - 200 - text/html;+charset=utf-8 12.8407ms
+2023-12-16 18:21:31.105 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:21:31.105 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2330ms
+2023-12-16 18:21:32.754 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:21:32.755 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:21:32.755 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:21:32.756 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:21:32.800 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:21:32.802 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:21:32.802 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:21:32.802 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:21:32.803 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:21:32.805 +01:00 [INF] Executed ViewResult - view Index executed in 1.5424ms.
+2023-12-16 18:21:32.805 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 49.4845ms
+2023-12-16 18:21:32.805 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:21:32.805 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 50.6218ms
+2023-12-16 18:21:32.819 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:21:32.820 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2729ms
+2023-12-16 18:21:40.313 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products - -
+2023-12-16 18:21:40.314 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products - - - 404 0 - 0.5753ms
+2023-12-16 18:21:50.843 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products/Index - -
+2023-12-16 18:21:50.844 +01:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2023-12-16 18:21:50.848 +01:00 [INF] AuthenticationScheme: Cookies was forbidden.
+2023-12-16 18:21:50.849 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products/Index - - - 302 0 - 5.9006ms
+2023-12-16 18:21:50.851 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Auth/AccessDenied?ReturnUrl=%2FProducts%2FIndex - -
+2023-12-16 18:21:50.852 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.AccessDenied (AmazonWebAppMVC)'
+2023-12-16 18:21:50.853 +01:00 [INF] Route matched with {action = "AccessDenied", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AccessDenied() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:21:50.853 +01:00 [INF] AuthController::AccessDenied() called
+2023-12-16 18:21:50.853 +01:00 [INF] Executing ViewResult, running view AccessDenied.
+2023-12-16 18:21:50.856 +01:00 [INF] Executed ViewResult - view AccessDenied executed in 2.5406ms.
+2023-12-16 18:21:50.856 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.AccessDenied (AmazonWebAppMVC) in 2.9024ms
+2023-12-16 18:21:50.856 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.AccessDenied (AmazonWebAppMVC)'
+2023-12-16 18:21:50.856 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Auth/AccessDenied?ReturnUrl=%2FProducts%2FIndex - - - 200 - text/html;+charset=utf-8 4.3803ms
+2023-12-16 18:21:50.878 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:21:50.878 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3274ms
+2023-12-16 18:21:55.064 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:21:55.064 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:21:55.064 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:21:55.065 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:21:55.066 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:21:55.067 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:21:55.067 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:21:55.068 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:21:55.068 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:21:55.069 +01:00 [INF] Executed ViewResult - view Index executed in 1.0521ms.
+2023-12-16 18:21:55.070 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 5.1867ms
+2023-12-16 18:21:55.070 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:21:55.070 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 6.1031ms
+2023-12-16 18:21:55.100 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:21:55.100 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1853ms
+2023-12-16 18:22:03.085 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Auth/Logout application/x-www-form-urlencoded 225
+2023-12-16 18:22:03.086 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Logout (AmazonWebAppMVC)'
+2023-12-16 18:22:03.087 +01:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:22:03.089 +01:00 [INF] AuthenticationScheme: Cookies signed out.
+2023-12-16 18:22:03.089 +01:00 [INF] AuthController::Logout() called
+2023-12-16 18:22:03.089 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2023-12-16 18:22:03.089 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Logout (AmazonWebAppMVC) in 1.6787ms
+2023-12-16 18:22:03.089 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Logout (AmazonWebAppMVC)'
+2023-12-16 18:22:03.089 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Auth/Logout application/x-www-form-urlencoded 225 - 302 0 - 4.5087ms
+2023-12-16 18:22:03.092 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2023-12-16 18:22:03.093 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:22:03.093 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:22:03.093 +01:00 [INF] AuthController::Login() called
+2023-12-16 18:22:03.093 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-16 18:22:03.093 +01:00 [INF] Executed ViewResult - view Login executed in 0.5728ms.
+2023-12-16 18:22:03.093 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 0.6943ms
+2023-12-16 18:22:03.093 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:22:03.094 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 200 - text/html;+charset=utf-8 1.2230ms
+2023-12-16 18:22:03.110 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:03.110 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2479ms
+2023-12-16 18:22:08.374 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 212
+2023-12-16 18:22:08.374 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:22:08.375 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:22:08.375 +01:00 [INF] AuthController::Login() called with username: admin and password: admin
+2023-12-16 18:22:08.375 +01:00 [INF] AuthController::Login() is admin
+2023-12-16 18:22:08.375 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-12-16 18:22:08.376 +01:00 [INF] AuthController::Login() admin logged in
+2023-12-16 18:22:08.376 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2023-12-16 18:22:08.376 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 1.2511ms
+2023-12-16 18:22:08.376 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:22:08.376 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 212 - 302 0 - 2.4665ms
+2023-12-16 18:22:08.381 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:22:08.382 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:08.382 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:22:08.382 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:22:08.383 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:08.384 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:22:08.384 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:22:08.385 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:08.386 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:08.387 +01:00 [INF] Executed ViewResult - view Index executed in 1.1499ms.
+2023-12-16 18:22:08.387 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 5.4648ms
+2023-12-16 18:22:08.387 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:08.387 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 6.6612ms
+2023-12-16 18:22:08.403 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:08.403 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1632ms
+2023-12-16 18:22:15.044 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products/Index - -
+2023-12-16 18:22:15.046 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:15.050 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.ProductsController (AmazonWebAppMVC).
+2023-12-16 18:22:15.056 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:15.061 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:15.077 +01:00 [INF] Executed ViewResult - view Index executed in 15.9328ms.
+2023-12-16 18:22:15.077 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC) in 26.9255ms
+2023-12-16 18:22:15.077 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:15.077 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products/Index - - - 200 - text/html;+charset=utf-8 32.9309ms
+2023-12-16 18:22:15.097 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:15.097 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2246ms
+2023-12-16 18:22:16.356 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Categories/Index - -
+2023-12-16 18:22:16.356 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:16.360 +01:00 [INF] Route matched with {action = "Index", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.CategoriesController (AmazonWebAppMVC).
+2023-12-16 18:22:16.362 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:16.363 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:16.368 +01:00 [INF] Executed ViewResult - view Index executed in 5.9847ms.
+2023-12-16 18:22:16.368 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC) in 8.4622ms
+2023-12-16 18:22:16.368 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:16.369 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Categories/Index - - - 200 - text/html;+charset=utf-8 12.8664ms
+2023-12-16 18:22:16.386 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:16.386 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.4894ms
+2023-12-16 18:22:17.148 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:22:17.148 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:17.148 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:22:17.149 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:22:17.150 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:17.151 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:22:17.151 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:22:17.152 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:17.153 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:17.154 +01:00 [INF] Executed ViewResult - view Index executed in 0.7062ms.
+2023-12-16 18:22:17.154 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 5.6412ms
+2023-12-16 18:22:17.154 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:17.154 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 6.5328ms
+2023-12-16 18:22:17.170 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:17.170 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3637ms
+2023-12-16 18:22:20.483 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products/Index - -
+2023-12-16 18:22:20.483 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:20.483 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.ProductsController (AmazonWebAppMVC).
+2023-12-16 18:22:20.485 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:20.486 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:20.489 +01:00 [INF] Executed ViewResult - view Index executed in 3.5048ms.
+2023-12-16 18:22:20.490 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC) in 6.5409ms
+2023-12-16 18:22:20.490 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:20.490 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products/Index - - - 200 - text/html;+charset=utf-8 7.3707ms
+2023-12-16 18:22:20.503 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:20.503 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1780ms
+2023-12-16 18:22:20.956 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Categories/Index - -
+2023-12-16 18:22:20.958 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:20.958 +01:00 [INF] Route matched with {action = "Index", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.CategoriesController (AmazonWebAppMVC).
+2023-12-16 18:22:20.959 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:20.959 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:20.961 +01:00 [INF] Executed ViewResult - view Index executed in 1.6602ms.
+2023-12-16 18:22:20.961 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC) in 3.2734ms
+2023-12-16 18:22:20.961 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:20.961 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Categories/Index - - - 200 - text/html;+charset=utf-8 5.0877ms
+2023-12-16 18:22:20.978 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:20.978 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1911ms
+2023-12-16 18:22:21.869 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:22:21.870 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:21.870 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:22:21.870 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:22:21.872 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:21.872 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:22:21.872 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:22:21.873 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:21.873 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:21.874 +01:00 [INF] Executed ViewResult - view Index executed in 0.7998ms.
+2023-12-16 18:22:21.874 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 4.1674ms
+2023-12-16 18:22:21.874 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:21.874 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 4.9478ms
+2023-12-16 18:22:21.891 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:21.891 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2479ms
+2023-12-16 18:22:23.660 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products/Index - -
+2023-12-16 18:22:23.661 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:23.661 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.ProductsController (AmazonWebAppMVC).
+2023-12-16 18:22:23.662 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:23.663 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:23.667 +01:00 [INF] Executed ViewResult - view Index executed in 4.0896ms.
+2023-12-16 18:22:23.667 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC) in 6.6091ms
+2023-12-16 18:22:23.668 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:23.668 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products/Index - - - 200 - text/html;+charset=utf-8 8.0852ms
+2023-12-16 18:22:23.684 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:23.685 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1775ms
+2023-12-16 18:22:24.435 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Categories/Index - -
+2023-12-16 18:22:24.435 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:24.435 +01:00 [INF] Route matched with {action = "Index", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.CategoriesController (AmazonWebAppMVC).
+2023-12-16 18:22:24.437 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:24.437 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:24.439 +01:00 [INF] Executed ViewResult - view Index executed in 1.8371ms.
+2023-12-16 18:22:24.439 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC) in 3.523ms
+2023-12-16 18:22:24.439 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:24.439 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Categories/Index - - - 200 - text/html;+charset=utf-8 4.1479ms
+2023-12-16 18:22:24.454 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:24.454 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1641ms
+2023-12-16 18:22:25.443 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:22:25.444 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:25.444 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:22:25.444 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:22:25.446 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:25.447 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:22:25.447 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:22:25.448 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:25.449 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:25.451 +01:00 [INF] Executed ViewResult - view Index executed in 2.5008ms.
+2023-12-16 18:22:25.452 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 7.6734ms
+2023-12-16 18:22:25.452 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:25.452 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 8.4972ms
+2023-12-16 18:22:25.469 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:25.469 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1698ms
+2023-12-16 18:22:27.084 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products/Index - -
+2023-12-16 18:22:27.085 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:27.085 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.ProductsController (AmazonWebAppMVC).
+2023-12-16 18:22:27.087 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:27.088 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:27.090 +01:00 [INF] Executed ViewResult - view Index executed in 2.6549ms.
+2023-12-16 18:22:27.091 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC) in 5.396ms
+2023-12-16 18:22:27.091 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:27.091 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products/Index - - - 200 - text/html;+charset=utf-8 6.1794ms
+2023-12-16 18:22:27.105 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:27.105 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1627ms
+2023-12-16 18:22:27.836 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Categories/Index - -
+2023-12-16 18:22:27.837 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:27.837 +01:00 [INF] Route matched with {action = "Index", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.CategoriesController (AmazonWebAppMVC).
+2023-12-16 18:22:27.838 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:27.839 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:27.840 +01:00 [INF] Executed ViewResult - view Index executed in 1.535ms.
+2023-12-16 18:22:27.840 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC) in 3.1601ms
+2023-12-16 18:22:27.840 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:27.840 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Categories/Index - - - 200 - text/html;+charset=utf-8 4.1162ms
+2023-12-16 18:22:27.857 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:27.858 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1355ms
+2023-12-16 18:22:28.796 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:22:28.796 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:28.797 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:22:28.797 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:22:28.798 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:28.799 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:22:28.799 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:22:28.800 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:28.800 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:28.801 +01:00 [INF] Executed ViewResult - view Index executed in 0.7057ms.
+2023-12-16 18:22:28.801 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 4.5563ms
+2023-12-16 18:22:28.801 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:28.801 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 5.3245ms
+2023-12-16 18:22:28.819 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:28.819 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3170ms
+2023-12-16 18:22:30.356 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products/Index - -
+2023-12-16 18:22:30.356 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:30.357 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.ProductsController (AmazonWebAppMVC).
+2023-12-16 18:22:30.358 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:30.359 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:30.363 +01:00 [INF] Executed ViewResult - view Index executed in 4.2154ms.
+2023-12-16 18:22:30.363 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC) in 6.8402ms
+2023-12-16 18:22:30.363 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:30.364 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products/Index - - - 200 - text/html;+charset=utf-8 7.8969ms
+2023-12-16 18:22:30.383 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:30.383 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.4190ms
+2023-12-16 18:22:31.620 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Categories/Index - -
+2023-12-16 18:22:31.620 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:31.621 +01:00 [INF] Route matched with {action = "Index", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.CategoriesController (AmazonWebAppMVC).
+2023-12-16 18:22:31.622 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:31.622 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:31.624 +01:00 [INF] Executed ViewResult - view Index executed in 1.693ms.
+2023-12-16 18:22:31.624 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC) in 3.0218ms
+2023-12-16 18:22:31.624 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:31.624 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Categories/Index - - - 200 - text/html;+charset=utf-8 3.7871ms
+2023-12-16 18:22:31.639 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:31.640 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2185ms
+2023-12-16 18:22:32.836 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:22:32.837 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:32.837 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:22:32.837 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:22:32.838 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:22:32.839 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:22:32.839 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:22:32.840 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:22:32.840 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:22:32.841 +01:00 [INF] Executed ViewResult - view Index executed in 0.7598ms.
+2023-12-16 18:22:32.841 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 4.1843ms
+2023-12-16 18:22:32.841 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:22:32.841 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 4.8117ms
+2023-12-16 18:22:32.857 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:22:32.858 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1727ms
+2023-12-16 18:23:49.122 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Categories/Index - -
+2023-12-16 18:23:49.123 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:23:49.123 +01:00 [INF] Route matched with {action = "Index", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.CategoriesController (AmazonWebAppMVC).
+2023-12-16 18:23:49.124 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:23:49.125 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:23:49.126 +01:00 [INF] Executed ViewResult - view Index executed in 1.1494ms.
+2023-12-16 18:23:49.126 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC) in 2.8837ms
+2023-12-16 18:23:49.126 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.CategoriesController.Index (AmazonWebAppMVC)'
+2023-12-16 18:23:49.126 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Categories/Index - - - 200 - text/html;+charset=utf-8 4.3609ms
+2023-12-16 18:23:49.141 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:23:49.141 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1369ms
+2023-12-16 18:23:50.604 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Products/Index - -
+2023-12-16 18:23:50.604 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:23:50.604 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AmazonWebAppMVC.Controllers.ProductsController (AmazonWebAppMVC).
+2023-12-16 18:23:50.605 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:23:50.606 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:23:50.609 +01:00 [INF] Executed ViewResult - view Index executed in 2.8327ms.
+2023-12-16 18:23:50.609 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC) in 4.7329ms
+2023-12-16 18:23:50.609 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.ProductsController.Index (AmazonWebAppMVC)'
+2023-12-16 18:23:50.609 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Products/Index - - - 200 - text/html;+charset=utf-8 5.5068ms
+2023-12-16 18:23:50.861 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:23:50.861 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1649ms
+2023-12-16 18:23:52.290 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Auth/Logout application/x-www-form-urlencoded 225
+2023-12-16 18:23:52.290 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Logout (AmazonWebAppMVC)'
+2023-12-16 18:23:52.290 +01:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:23:52.291 +01:00 [INF] AuthenticationScheme: Cookies signed out.
+2023-12-16 18:23:52.291 +01:00 [INF] AuthController::Logout() called
+2023-12-16 18:23:52.291 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2023-12-16 18:23:52.291 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Logout (AmazonWebAppMVC) in 0.5911ms
+2023-12-16 18:23:52.291 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Logout (AmazonWebAppMVC)'
+2023-12-16 18:23:52.291 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Auth/Logout application/x-www-form-urlencoded 225 - 302 0 - 1.6634ms
+2023-12-16 18:23:52.295 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2023-12-16 18:23:52.295 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:23:52.296 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:23:52.296 +01:00 [INF] AuthController::Login() called
+2023-12-16 18:23:52.296 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-16 18:23:52.296 +01:00 [INF] Executed ViewResult - view Login executed in 0.4033ms.
+2023-12-16 18:23:52.296 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 0.5395ms
+2023-12-16 18:23:52.296 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:23:52.296 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 200 - text/html;+charset=utf-8 1.1909ms
+2023-12-16 18:23:52.316 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-12-16 18:23:52.316 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1771ms
+2023-12-16 18:24:36.635 +01:00 [INF] Application is shutting down...
+2023-12-16 18:24:52.088 +01:00 [INF] Application AmazonWebAppMVC started
+2023-12-16 18:24:52.128 +01:00 [INF] User profile is available. Using 'C:\Users\Moham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-16 18:24:52.168 +01:00 [INF] Now listening on: http://localhost:5004
+2023-12-16 18:24:52.168 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-16 18:24:52.169 +01:00 [INF] Hosting environment: Development
+2023-12-16 18:24:52.169 +01:00 [INF] Content root path: C:\Users\Moham\OneDrive\Documents\Studies\ILISI3\S5\Dot Net\Projects\AmazonWebAppMVC\AmazonWebAppMVC
+2023-12-16 18:26:05.539 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2023-12-16 18:26:05.545 +01:00 [WRN] Failed to determine the https port for redirect.
+2023-12-16 18:26:05.578 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:26:05.596 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:26:05.599 +01:00 [INF] AuthController::Login() called
+2023-12-16 18:26:05.609 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-16 18:26:05.661 +01:00 [INF] Executed ViewResult - view Login executed in 52.5564ms.
+2023-12-16 18:26:05.662 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 65.5569ms
+2023-12-16 18:26:05.663 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:26:05.667 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 200 - text/html;+charset=utf-8 130.4610ms
+2023-12-16 18:26:05.667 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/css/styles.css?v=cUXNFYqe2-7MQNjrcl7vQmBQcRGJ_9v8PmLOUCK0C_w - -
+2023-12-16 18:26:05.670 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/css/site.css?v=o5Xt-F6IJ6K8I1RTQFT4OAsJqs3o7kZ5X-k3OiY89ZY - -
+2023-12-16 18:26:05.683 +01:00 [INF] The file /css/site.css was not modified
+2023-12-16 18:26:05.683 +01:00 [INF] The file /css/styles.css was not modified
+2023-12-16 18:26:05.684 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/css/styles.css?v=cUXNFYqe2-7MQNjrcl7vQmBQcRGJ_9v8PmLOUCK0C_w - - - 304 - text/css 16.3751ms
+2023-12-16 18:26:05.684 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/css/site.css?v=o5Xt-F6IJ6K8I1RTQFT4OAsJqs3o7kZ5X-k3OiY89ZY - - - 304 - text/css 13.5723ms
+2023-12-16 18:26:13.317 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 214
+2023-12-16 18:26:13.319 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:26:13.326 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller AmazonWebAppMVC.Controllers.AuthController (AmazonWebAppMVC).
+2023-12-16 18:26:13.336 +01:00 [INF] AuthController::Login() called with username: client and password: client
+2023-12-16 18:26:13.336 +01:00 [INF] AuthController::Login() is client
+2023-12-16 18:26:13.339 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-12-16 18:26:13.339 +01:00 [INF] AuthController::Login() client logged in
+2023-12-16 18:26:13.340 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2023-12-16 18:26:13.340 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC) in 14.3006ms
+2023-12-16 18:26:13.340 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.AuthController.Login (AmazonWebAppMVC)'
+2023-12-16 18:26:13.340 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/ application/x-www-form-urlencoded 214 - 302 0 - 23.0177ms
+2023-12-16 18:26:13.343 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Home/Index - -
+2023-12-16 18:26:13.350 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:26:13.355 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller AmazonWebAppMVC.Controllers.HomeController (AmazonWebAppMVC).
+2023-12-16 18:26:13.427 +01:00 [INF] HomeController::Index(null,null) called
+2023-12-16 18:26:14.071 +01:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-16 18:26:14.180 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-12-16 18:26:14.182 +01:00 [INF] HomeController::Index() products number = 2
+2023-12-16 18:26:14.224 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-16 18:26:14.243 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:26:14.268 +01:00 [INF] Executed ViewResult - view Index executed in 25.2166ms.
+2023-12-16 18:26:14.269 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC) in 913.8627ms
+2023-12-16 18:26:14.269 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.HomeController.Index (AmazonWebAppMVC)'
+2023-12-16 18:26:14.276 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Home/Index - - - 200 - text/html;+charset=utf-8 933.2168ms
+2023-12-16 18:26:15.889 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/Panier/AddToCart application/x-www-form-urlencoded 237
+2023-12-16 18:26:15.893 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC)'
+2023-12-16 18:26:15.895 +01:00 [INF] Route matched with {action = "AddToCart", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddToCart(Int32) on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 18:26:15.897 +01:00 [INF] PanierController::AddToCart() Order before = AmazonWebAppMVC.Models.Order
+2023-12-16 18:26:15.945 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 18:26:15.946 +01:00 [INF] PanierController::AddToCart() product = AmazonWebAppMVC.Models.Product
+2023-12-16 18:26:15.947 +01:00 [INF] PanierController::AddToCart() Order after = AmazonWebAppMVC.Models.Order
+2023-12-16 18:26:15.993 +01:00 [INF] Executing RedirectResult, redirecting to /Panier/Index.
+2023-12-16 18:26:15.993 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC) in 98.0563ms
+2023-12-16 18:26:15.993 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.AddToCart (AmazonWebAppMVC)'
+2023-12-16 18:26:15.995 +01:00 [INF] Session started; Key:bedae08b-ac97-7a26-4490-c27fbb17e36f, Id:2d713131-7afd-bc9d-8ef3-85c08dbad845
+2023-12-16 18:26:15.996 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/Panier/AddToCart application/x-www-form-urlencoded 237 - 302 0 - 106.8561ms
+2023-12-16 18:26:15.998 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/Panier/Index - -
+2023-12-16 18:26:16.000 +01:00 [INF] Executing endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 18:26:16.000 +01:00 [INF] Route matched with {action = "Index", controller = "Panier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AmazonWebAppMVC.Controllers.PanierController (AmazonWebAppMVC).
+2023-12-16 18:26:16.002 +01:00 [INF] PanierController::Index() called
+2023-12-16 18:26:16.002 +01:00 [INF] PanierController::Index() item = {"OrderId":0,"FirstName":null,"LastName":null,"Email":null,"Total":2500,"OrderItems":[{"OrderItemId":0,"OrderId":0,"ProductId":1,"QuantityOrdered":1,"Price":2500,"Order":null,"Product":null}]}
+2023-12-16 18:26:16.049 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-16 18:26:16.049 +01:00 [INF] PanierController::Index() order = AmazonWebAppMVC.Models.Order
+2023-12-16 18:26:16.050 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-16 18:26:16.061 +01:00 [INF] Executed ViewResult - view Index executed in 11.0913ms.
+2023-12-16 18:26:16.061 +01:00 [INF] Executed action AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC) in 60.4496ms
+2023-12-16 18:26:16.061 +01:00 [INF] Executed endpoint 'AmazonWebAppMVC.Controllers.PanierController.Index (AmazonWebAppMVC)'
+2023-12-16 18:26:16.061 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/Panier/Index - - - 200 - text/html;+charset=utf-8 62.8853ms
